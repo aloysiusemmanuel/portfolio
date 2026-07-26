@@ -8,7 +8,7 @@ import React from 'react'
       <div className="col-lg-7">
         <span className="eyebrow">14 categories, one kitchen</span>
         <h1>
-          What's <em>cooking</em> today?
+          This is what I am <em>cooking</em> today?
         </h1>
         <p className="lead">
           Every dish starts as a category on a card. Browse beef, pasta, vegan,

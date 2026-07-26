@@ -2,7 +2,7 @@ name : testing testing workflow
 #events to fire the workflow
 on :
     push:
-         branches: main
+         branches: hello #this one will not run because, it has been changed from main to hello
 #the jobs you want to automate
 jobs:
 #on which platform: runner should the job run

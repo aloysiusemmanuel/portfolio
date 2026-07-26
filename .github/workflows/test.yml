@@ -1,0 +1,18 @@
+name : testing testing workflow
+#events to fire the workflow
+on :
+    push:
+         branches: main
+#the jobs you want to automate
+jobs:
+#on which platform: runner should the job run
+     say-hello: 
+          runs-on: ubuntu-latest
+# what sre the steps necessary to achieve the job
+          steps:
+# step 1: aname for the step and what the step is about : running a command
+              - name :  welcome user
+                run: echo "welcometo ci/cd"
+# step 2: run a command
+              - name : good bye user
+                run: echo "good bye"
